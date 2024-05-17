@@ -18,7 +18,7 @@ export const Navbar = () => {
     navigate("/");
   }
   return (
-    <div className='border-solid border-b-2 border-b-blue-100 sticky top-0 flex justify-between min-h-16 items-center px-2 md:px-4 shadow-md'>
+    <div className='border-solid bg-white border-b-2 border-b-blue-100 sticky top-0 flex justify-between min-h-16 items-center px-2 md:px-4 shadow-md z-50'>
         <Link to={"/"}><div className='font-bold text-[18px] md:text-[25px]'>Dice Game</div></Link>
         <div >
             <ul className='flex gap-4 md:gap-12'>
